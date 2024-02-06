@@ -13,6 +13,7 @@
     --bg-color:  #121212;
     --second-bg-color: #061053;
     --other-color: #c3cad5;
+    --white-color: white;
 }
 body{
     color: var(--bg-color);
@@ -20,8 +21,8 @@ body{
 
 }
 .header div {
-    display: inline-block; /* or inline-block */
-    margin-bottom: 10px; /* Optional: Add margin between divs */
+    display: inline-block; 
+    margin-bottom: 10px; 
 }
 .header{
     position: fixed;
@@ -66,19 +67,20 @@ span{
     box-shadow: 0px 0px 20px;
     transform: scale(1.1);
 }
-
+.home{
+    height: fit-content;
+    margin: auto;
+}
 section{
     padding: 110px 16% 90px;
     
 }
 .cool{
     color: beige;
-    /* width: 600px; */
-    /* max-width: 100%; */
 }
 .cool, .cool p, .cool h4, .main-btn {
-    width: 600px; /* Set the desired width */
-    max-width: 100%; /* Allow the width to be flexible */
+    width: 600px;
+    max-width: 100%; 
 }
 
 .intro{
@@ -87,8 +89,6 @@ section{
 .cool h4{
     font-size: 4rem;
     font-weight: bold;
-    /* width: 600px; */
-    /* max-width: 100%; */
     line-height: 1.2;
     margin-bottom: 15px;
     
@@ -96,23 +96,21 @@ section{
 .cool p{
     font-size: 1.7rem;
     font-weight: bold;
-    /* width: 600px; */
-    /* max-width: 100%; */
     color: var(--other-color);
     line-height: 1.2;
     margin-bottom: 15px;
     
-    
 }
 .befikra-paper-library-illustartion{
-    width: 50%; /* Specify the desired width */
+    width: 50%; 
     height: auto;
 }
 
 .intro-fullBox {
-    display: flex; /* Use flexbox to arrange children in a row */
+    display: flex; 
     align-items: center;
     width: 100%;
+    margin: 0px 0px 64px; 
 }
 
 .intro {
@@ -121,6 +119,13 @@ section{
 }
 
 .befikra-paper-library-illustartion {
-    width: 40%; /* Adjust the width as needed */
-    margin-left: 20px; /* Add some space between the intro and the image */
+    width: 577;
+    margin-left: 20px; 
+    margin-top: auto;
+    height: 433;
+}
+
+.resources-list{
+    color: var(--white-color);
+    font-size: 2.5rem;
 }
