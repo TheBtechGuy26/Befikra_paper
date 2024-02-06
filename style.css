@@ -12,7 +12,7 @@
     --text-color: #FFCA32;
     --bg-color:  #121212;
     --second-bg-color: #061053;
-
+    --other-color: #c3cad5;
 }
 body{
     color: var(--bg-color);
@@ -67,3 +67,30 @@ span{
     transform: scale(1.1);
 }
 
+section{
+    padding: 110px 16% 90px;
+    
+}
+.cool{
+    color: beige;
+}
+
+.intro{
+    height: 100vh;
+}
+.cool h4{
+    margin-bottom: 20px;
+    font-size: 4rem;
+    
+}
+.cool p{
+    font-size: 2rem;
+    font-weight: bold;
+    width: 620px;
+    max-width: 100%;
+    color: var(--other-color);
+    line-height: 1.2;
+    margin-bottom: 15px;
+    
+    
+}
