@@ -9,7 +9,7 @@
 }
 
 :root{
-    --text-color: #FFCA32;
+    --text-color: #fcba03;
     --bg-color:  #121212;
     --second-bg-color: #061053;
     --other-color: #c3cad5;
@@ -73,24 +73,54 @@ section{
 }
 .cool{
     color: beige;
+    /* width: 600px; */
+    /* max-width: 100%; */
+}
+.cool, .cool p, .cool h4, .main-btn {
+    width: 600px; /* Set the desired width */
+    max-width: 100%; /* Allow the width to be flexible */
 }
 
 .intro{
     height: 100vh;
 }
 .cool h4{
-    margin-bottom: 20px;
     font-size: 4rem;
+    font-weight: bold;
+    /* width: 600px; */
+    /* max-width: 100%; */
+    line-height: 1.2;
+    margin-bottom: 15px;
     
 }
 .cool p{
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: bold;
-    width: 620px;
-    max-width: 100%;
+    /* width: 600px; */
+    /* max-width: 100%; */
     color: var(--other-color);
     line-height: 1.2;
     margin-bottom: 15px;
     
     
+}
+.befikra-paper-library-illustartion{
+    width: 50%; /* Specify the desired width */
+    height: auto;
+}
+
+.intro-fullBox {
+    display: flex; /* Use flexbox to arrange children in a row */
+    align-items: center;
+    width: 100%;
+}
+
+.intro {
+    flex: 1;
+    height: 200px;
+}
+
+.befikra-paper-library-illustartion {
+    width: 40%; /* Adjust the width as needed */
+    margin-left: 20px; /* Add some space between the intro and the image */
 }
