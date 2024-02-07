@@ -10,8 +10,8 @@
 
 :root{
     --text-color: #fcba03;
-    --bg-color:  #121212;
-    --second-bg-color: #061053;
+    --bg-color: black;
+    --second-bg-color: #011328;
     --other-color: #c3cad5;
     --white-color: white;
 }
@@ -128,4 +128,26 @@ section{
 .resources-list{
     color: var(--white-color);
     font-size: 2.5rem;
+}
+
+.resources-content{
+    display: inline-block; 
+    width: 30%; 
+    margin: 10px; 
+    vertical-align: top; 
+    box-sizing: border-box; 
+    padding: 10px; 
+}
+.box{
+    padding: 80px 40px 66px;
+    background: var(--second-bg-color);
+    border-radius: 28px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 5px var(--main-color);
+    transition: all .50s ease;
+    cursor: pointer;
+
+}
+.box p{
+    color: var(--white-color);
 }
