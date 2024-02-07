@@ -125,10 +125,12 @@ section{
     height: 433;
 }
 
-.resources-list{
+.resources-list {
     color: var(--white-color);
     font-size: 2.5rem;
+    text-align: center;
 }
+
 
 .resources-content{
     display: inline-block; 
