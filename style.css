@@ -153,3 +153,8 @@ section{
 .box p{
     color: var(--white-color);
 }
+.box:hover{
+    border: 1px solid var(--main-color);
+    transform: translateY(-5px) scale(1.03);
+    background: #1A385B;
+}
